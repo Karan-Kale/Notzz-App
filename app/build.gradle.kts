@@ -31,7 +31,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("kotlin-kapt")
-    id("androidx.navigation.safeargs.kotlin")
+    id("androidx.navigation.safeargs")
     id("dagger.hilt.android.plugin")
 }
 
@@ -43,7 +43,7 @@ android {
         applicationId = "thecodemonks.org.nottzapp"
         minSdk = 21
         targetSdk = 31
-        versionCode = 4
+        versionCode = 1
         versionName = "1.4.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

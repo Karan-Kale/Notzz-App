@@ -27,20 +27,13 @@
   ~
   -->
 
-<resources>
-    <color name="colorPrimary">#fff</color>
-    <color name="colorPrimaryDark">#121212</color>
-    <color name="background">#f9f9f9</color>
-    <color name="colorAccent">#000000</color>
-    <color name="hint_color">#979797</color>
-    <color name="title_text_color">#333333</color>
-    <color name="note_text_color">#11111E</color>
-    <color name="card_bg">#fff</color>
-    <color name="white">#ffffff</color>
-    <color name="black">#000000</color>
-    <color name="blue">#2F80ED</color>
-    <color name="light_blue_50">#FFE1F5FE</color>
-    <color name="light_blue_200">#FF81D4FA</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="light_blue_900">#FF01579B</color>
-</resources>
+<!--
+Background for widgets to make the rounded corners based on the
+appWidgetRadius attribute value
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="?attr/appWidgetRadius" />
+    <solid android:color="?android:attr/colorBackground" />
+</shape>

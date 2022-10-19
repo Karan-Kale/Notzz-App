@@ -46,8 +46,15 @@
         </item>
     </style>
 
-    <style name="ToolbarTheme">
-        <item name="android:fontFamily">@font/work_sans_bold</item>
+    <style name="Widget.NottzApp.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
+
+    <style name="Widget.NottzApp.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
 
 </resources>

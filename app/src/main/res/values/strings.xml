@@ -59,5 +59,8 @@
     <string name="text_about_visit_title">Visit</string>
     <string name="text_about_visit_url"><u>https://github.com/TheCodeMonks/Notzz-App</u></string>
     <string name="text_app_version">v%s (%d)</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 
 </resources>
